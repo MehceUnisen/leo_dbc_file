@@ -78,12 +78,12 @@ BO_ 1026 VehicleCommands: 8 DEWESoft
  SG_ reserved : 56|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
 
 BO_ 1025 FrontWheelCommands: 8 DEWESoft
- SG_ set_front_wheel_angle : 0|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "radian" DEWESoft
- SG_ set_front_wheel_angle_rate : 32|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "degree" DEWESoft
+ SG_ set_front_wheel_angle : 0|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "rad" DEWESoft
+ SG_ set_front_wheel_angle_rate : 32|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "deg" DEWESoft
 
 BO_ 1024 LongitudinalCommands: 8 DEWESoft
- SG_ set_long_accel : 0|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "meters per seconds square" DEWESoft
- SG_ set_limit_velocity : 32|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "meters per second" DEWESoft
+ SG_ set_long_accel : 0|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "m/s^2" DEWESoft
+ SG_ set_limit_velocity : 32|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "m/s" DEWESoft
 
 CM_ SG_ 1031 debugstr "-";
 CM_ SG_ 1031 crc "-";

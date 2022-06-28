@@ -34,97 +34,48 @@ BS_ :
 
 BU_ :  DEWESoft
 
-BO_ 1072 EofCommands: 8 DEWESoft
- SG_ eof_id1 : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
- SG_ eof_id2 : 8|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+BO_ 1031 EofInformations: 8 DEWESoft
+ SG_ debugstr : 0|24@1- (4.940656458e-324,5.299808824e-315) [0|-2.000001441] "-" DEWESoft
+ SG_ crc : 24|16@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ eof_id1 : 40|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ eof_id2 : 48|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
 
-BO_ 1065 CrcCommand: 8 DEWESoft
- SG_ crc : 0|16@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1064 DebugStrCommand: 8 DEWESoft
- SG_ debugstr : 0|24@1+ (4.940656458e-324,5.299808824e-315) [0|-2.681561586e+154] "-" DEWESoft
-
-BO_ 1063 FrontSteerCommand: 8 DEWESoft
- SG_ front_steer : 0|16@1- (4.940656458e-324,5.299808824e-315) [0|1.598749759e-314] "-" DEWESoft
-
-BO_ 1062 BrakeCommand: 8 DEWESoft
- SG_ brake : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1061 ThrottleCommand: 8 DEWESoft
- SG_ throttle : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1060 MotionAllowCommand: 8 DEWESoft
- SG_ motion_allow : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1059 ReadyCommand: 8 DEWESoft
+BO_ 1030 MotionInformations: 8 DEWESoft
  SG_ ready : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ motion_allow : 8|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ throttle : 16|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ brake : 24|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ front_steer : 32|16@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
 
-BO_ 1058 InterventionCommand: 8 DEWESoft
- SG_ intervention : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1057 HornCommand: 8 DEWESoft
- SG_ horn : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1056 HandBrakeCommand: 8 DEWESoft
- SG_ hand_brake : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1049 ModeCommand: 8 DEWESoft
- SG_ mode : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1048 GearCommand: 8 DEWESoft
- SG_ gear : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1047 WiperCommand: 8 DEWESoft
- SG_ wiper : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1046 BlinkerCommand: 8 DEWESoft
- SG_ blinker : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1046 HeadlightCommand: 8 DEWESoft
- SG_ headlight : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1045 FuelCommand: 8 DEWESoft
+BO_ 1029 VehicleInformations: 8 DEWESoft
  SG_ fuel : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ blinker : 8|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ wiper : 16|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ gear : 24|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ mode : 32|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ hand_brake : 40|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ horn : 48|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ intervention : 56|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
 
-BO_ 1044 FrontWheelAngleCommand: 8 DEWESoft
- SG_ front_wheel_angle : 0|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "radian" DEWESoft
+BO_ 1028 VehicleDynamicVariablesInformati: 8 DEWESoft
+ SG_ velocity : 0|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "m/s" DEWESoft
+ SG_ front_wheel_angle : 32|32@1+ (4.940656458e-324,5.299808824e-315) [0|-8.988465674e+307] "rad" DEWESoft
 
-BO_ 1043 VelocityCommand: 8 DEWESoft
- SG_ velocity : 0|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "meters per second" DEWESoft
+BO_ 1027 FrameInformations: 8 DEWESoft
+ SG_ frame_id1_0000 : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ frame_id1_0001 : 8|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ errors : 16|16@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ counter : 32|32@1+ (4.940656458e-324,5.299808824e-315) [0|-8.988465674e+307] "-" DEWESoft
 
-BO_ 1042 CounterCommand: 8 DEWESoft
- SG_ counter : 0|32@1+ (4.940656458e-324,5.299808824e-315) [0|-8.988465674e+307] "-" DEWESoft
-
-BO_ 1041 ErrorsCommand: 8 DEWESoft
- SG_ errors : 0|16@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1040 FrameIdCommands: 8 DEWESoft
- SG_ frame_id_1 : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
- SG_ frame_id_2 : 8|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1032 RsvCommand: 8 DEWESoft
- SG_ rsv : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1031 HornCommand: 8 DEWESoft
- SG_ horn : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1030 HandBrakeCommand: 8 DEWESoft
- SG_ hand_brake : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1029 ModeCommand: 8 DEWESoft
- SG_ mode : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1028 GearCommand: 8 DEWESoft
- SG_ gear : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1027 WiperCommand: 8 DEWESoft
- SG_ wiper : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
-
-BO_ 1026 BlinkerCommand: 8 DEWESoft
- SG_ blinker : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "bruh" DEWESoft
-
-BO_ 1026 HeadlightCommand: 8 DEWESoft
- SG_ headlight : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "bruh" DEWESoft
+BO_ 1026 VehicleCommands: 8 DEWESoft
+ SG_ blinker : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ headlight : 8|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ wiper : 16|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ gear : 24|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ mode : 32|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ hand_brake : 40|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ horn : 48|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ reserved : 56|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
 
 BO_ 1025 FrontWheelCommands: 8 DEWESoft
  SG_ set_front_wheel_angle : 0|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "radian" DEWESoft
@@ -134,44 +85,48 @@ BO_ 1024 LongitudinalCommands: 8 DEWESoft
  SG_ set_long_accel : 0|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "meters per seconds square" DEWESoft
  SG_ set_limit_velocity : 32|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "meters per second" DEWESoft
 
-CM_ SG_ 1072 eof_id1 "-";
-CM_ SG_ 1072 eof_id2 "-";
-CM_ SG_ 1065 crc "-";
-CM_ SG_ 1064 debugstr "-";
-CM_ SG_ 1063 front_steer "-";
-CM_ SG_ 1062 brake "-";
-CM_ SG_ 1061 throttle "-";
-CM_ SG_ 1060 motion_allow "-";
-CM_ SG_ 1059 ready "-";
-CM_ SG_ 1058 intervention "-";
-CM_ SG_ 1057 horn "-";
-CM_ SG_ 1056 hand_brake "-";
-CM_ SG_ 1049 mode "-";
-CM_ SG_ 1048 gear "-";
-CM_ SG_ 1047 wiper "-";
-CM_ SG_ 1046 blinker "-";
-CM_ SG_ 1046 headlight "-";
-CM_ SG_ 1045 fuel "-";
-CM_ SG_ 1044 front_wheel_angle "-";
-CM_ SG_ 1043 velocity "-";
-CM_ SG_ 1042 counter "-";
-CM_ SG_ 1041 errors "-";
-CM_ SG_ 1040 frame_id_1 "-";
-CM_ SG_ 1040 frame_id_2 "-";
-CM_ SG_ 1032 rsv "-";
-CM_ SG_ 1031 horn "-";
-CM_ SG_ 1030 hand_brake "-";
+CM_ SG_ 1031 debugstr "-";
+CM_ SG_ 1031 crc "-";
+CM_ SG_ 1031 eof_id1 "-";
+CM_ SG_ 1031 eof_id2 "-";
+CM_ SG_ 1030 ready "-";
+CM_ SG_ 1030 motion_allow "-";
+CM_ SG_ 1030 throttle "-";
+CM_ SG_ 1030 brake "-";
+CM_ SG_ 1030 front_steer "-";
+CM_ SG_ 1029 fuel "-";
+CM_ SG_ 1029 blinker "-";
+CM_ SG_ 1029 wiper "-";
+CM_ SG_ 1029 gear "-";
 CM_ SG_ 1029 mode "-";
-CM_ SG_ 1028 gear "-";
-CM_ SG_ 1027 wiper "-";
+CM_ SG_ 1029 hand_brake "-";
+CM_ SG_ 1029 horn "-";
+CM_ SG_ 1029 intervention "-";
+
+CM_ SG_ 1028 velocity "-";
+CM_ SG_ 1028 front_wheel_angle "-";
+CM_ SG_ 1027 frame_id1_0000 "-";
+CM_ SG_ 1027 frame_id1_0001 "-";
+CM_ SG_ 1027 errors "-";
+CM_ SG_ 1027 counter "-";
 CM_ SG_ 1026 blinker "-";
 CM_ SG_ 1026 headlight "-";
+CM_ SG_ 1026 wiper "-";
+CM_ SG_ 1026 gear "-";
+CM_ SG_ 1026 mode "-";
+CM_ SG_ 1026 hand_brake "-";
+CM_ SG_ 1026 horn "-";
+CM_ SG_ 1026 reserved "-";
 CM_ SG_ 1025 set_front_wheel_angle "-";
 CM_ SG_ 1025 set_front_wheel_angle_rate "-";
 CM_ SG_ 1024 set_long_accel "-";
 CM_ SG_ 1024 set_limit_velocity "-";
-SIG_VALTYPE_ 1044 front_wheel_angle : 1;
-SIG_VALTYPE_ 1043 velocity : 1;
+BA_DEF_ BO_  "DEWESoft_Msg_Name" STRING ;
+BA_DEF_ SG_  "DEWESoft_Sig_Name" STRING ;
+BA_ "DEWESoft_Msg_Name" BO_ 1028 "VehicleDynamicVariablesInformations";
+BA_ "DEWESoft_Sig_Name" SG_ 1027 frame_id1_0000 "frame_id1";
+BA_ "DEWESoft_Sig_Name" SG_ 1027 frame_id1_0001 "frame_id1";
+SIG_VALTYPE_ 1028 velocity : 1;
 SIG_VALTYPE_ 1025 set_front_wheel_angle : 1;
 SIG_VALTYPE_ 1025 set_front_wheel_angle_rate : 1;
 SIG_VALTYPE_ 1024 set_long_accel : 1;

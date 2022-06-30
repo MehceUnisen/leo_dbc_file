@@ -34,6 +34,10 @@ BS_ :
 
 BU_ :  DEWESoft
 
+BO_ 1044 motor_info: 8 DEWESoft
+ SG_ motor_temp : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+ SG_ motor_rpm : 8|16@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
+
 BO_ 1043 MotionInfo: 8 DEWESoft
  SG_ intervention : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
  SG_ ready : 8|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
@@ -56,15 +60,9 @@ BO_ 1041 VehicleDynamicsInfo: 8 DEWESoft
  SG_ linear_vehicle_velocity : 0|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "m/s" DEWESoft
  SG_ front_wheel_angle : 32|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "rad" DEWESoft
 
-BO_ 1040 DebugString: 8 DEWESoft
- SG_ counter : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
- SG_ char0 : 8|8@1- (4.940656458e-324,5.299808824e-315) [0|1.594605235e-314] "-" DEWESoft
- SG_ char1 : 16|8@1- (4.940656458e-324,5.299808824e-315) [0|1.594605235e-314] "-" DEWESoft
- SG_ char2 : 24|8@1- (4.940656458e-324,5.299808824e-315) [0|1.594605235e-314] "-" DEWESoft
- SG_ char3 : 32|8@1- (4.940656458e-324,5.299808824e-315) [0|1.594605235e-314] "-" DEWESoft
- SG_ char4 : 40|8@1- (4.940656458e-324,5.299808824e-315) [0|1.594605235e-314] "-" DEWESoft
- SG_ char5 : 48|8@1- (4.940656458e-324,5.299808824e-315) [0|1.594605235e-314] "-" DEWESoft
- SG_ char6 : 56|8@1- (4.940656458e-324,5.299808824e-315) [0|1.594605235e-314] "-" DEWESoft
+BO_ 1027 FrontWheelCommands: 8 DEWESoft
+ SG_ set_front_wheel_angle : 0|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "rad" DEWESoft
+ SG_ set_front_wheel_angle_rate : 32|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "rad/s" DEWESoft
 
 BO_ 1026 VehicleCommands: 8 DEWESoft
  SG_ blinker : 0|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
@@ -76,14 +74,16 @@ BO_ 1026 VehicleCommands: 8 DEWESoft
  SG_ horn : 48|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
  SG_ reserved : 56|8@1+ (4.940656458e-324,5.299808824e-315) [0|0] "-" DEWESoft
 
-BO_ 1025 FrontWheelCommands: 8 DEWESoft
- SG_ set_front_wheel_angle : 0|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "rad" DEWESoft
- SG_ set_front_wheel_angle_rate : 32|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "rad/s" DEWESoft
+BO_ 1025 LongitudinalCommandsV2: 8 DEWESoft
+ SG_ set_gas_pedal_pos : 0|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "-" DEWESoft
+ SG_ set_brake_pedal_pos : 32|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "-" DEWESoft
 
-BO_ 1024 LongitidunalCommands: 8 DEWESoft
+BO_ 1024 LongitudinalCommandsV1: 8 DEWESoft
  SG_ set_long_accel : 0|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "m/s^2" DEWESoft
  SG_ set_limit_velocity : 32|32@1- (4.940656458e-324,5.299808824e-315) [0|1.597827966e-314] "m/s" DEWESoft
 
+CM_ SG_ 1044 motor_temp "-";
+CM_ SG_ 1044 motor_rpm "-";
 CM_ SG_ 1043 intervention "-";
 CM_ SG_ 1043 ready "-";
 CM_ SG_ 1043 motion_allow "-";
@@ -100,14 +100,8 @@ CM_ SG_ 1042 hand_brake "-";
 CM_ SG_ 1042 horn "-";
 CM_ SG_ 1041 linear_vehicle_velocity "-";
 CM_ SG_ 1041 front_wheel_angle "-";
-CM_ SG_ 1040 counter "-";
-CM_ SG_ 1040 char0 "-";
-CM_ SG_ 1040 char1 "-";
-CM_ SG_ 1040 char2 "-";
-CM_ SG_ 1040 char3 "-";
-CM_ SG_ 1040 char4 "-";
-CM_ SG_ 1040 char5 "-";
-CM_ SG_ 1040 char6 "-";
+CM_ SG_ 1027 set_front_wheel_angle "-";
+CM_ SG_ 1027 set_front_wheel_angle_rate "-";
 CM_ SG_ 1026 blinker "-";
 CM_ SG_ 1026 headlgiht "-";
 CM_ SG_ 1026 wiper "-";
@@ -116,13 +110,15 @@ CM_ SG_ 1026 mode "-";
 CM_ SG_ 1026 hand_brake "-";
 CM_ SG_ 1026 horn "-";
 CM_ SG_ 1026 reserved "-";
-CM_ SG_ 1025 set_front_wheel_angle "-";
-CM_ SG_ 1025 set_front_wheel_angle_rate "-";
+CM_ SG_ 1025 set_gas_pedal_pos "-";
+CM_ SG_ 1025 set_brake_pedal_pos "-";
 CM_ SG_ 1024 set_long_accel "-";
 CM_ SG_ 1024 set_limit_velocity "-";
 SIG_VALTYPE_ 1041 linear_vehicle_velocity : 1;
 SIG_VALTYPE_ 1041 front_wheel_angle : 1;
-SIG_VALTYPE_ 1025 set_front_wheel_angle : 1;
-SIG_VALTYPE_ 1025 set_front_wheel_angle_rate : 1;
+SIG_VALTYPE_ 1027 set_front_wheel_angle : 1;
+SIG_VALTYPE_ 1027 set_front_wheel_angle_rate : 1;
+SIG_VALTYPE_ 1025 set_gas_pedal_pos : 1;
+SIG_VALTYPE_ 1025 set_brake_pedal_pos : 1;
 SIG_VALTYPE_ 1024 set_long_accel : 1;
 SIG_VALTYPE_ 1024 set_limit_velocity : 1;
